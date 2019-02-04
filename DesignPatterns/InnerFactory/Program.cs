@@ -28,7 +28,7 @@ namespace InnerFactory
         {
             return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
         }
-        public class PointFactory
+        public static class  PointFactory
         {
             public static Point NewPolarPoint(double rho, double theta)
             {
