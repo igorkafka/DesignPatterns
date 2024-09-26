@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{68595810-30B5-4104-A5B5-58FD535036E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRP", "SRP", "{233E30D9-F858-4CAE-98CB-840A651B4F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.Srp", "Solid\Solid.Srp\Solid.Srp.csproj", "{C083E72F-853D-4F85-A9AD-7DD49D24D444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C083E72F-853D-4F85-A9AD-7DD49D24D444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C083E72F-853D-4F85-A9AD-7DD49D24D444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C083E72F-853D-4F85-A9AD-7DD49D24D444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C083E72F-853D-4F85-A9AD-7DD49D24D444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{233E30D9-F858-4CAE-98CB-840A651B4F7B} = {68595810-30B5-4104-A5B5-58FD535036E5}
+		{C083E72F-853D-4F85-A9AD-7DD49D24D444} = {233E30D9-F858-4CAE-98CB-840A651B4F7B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB8A018F-8764-4661-882E-A83D1BC4E7A9}
+	EndGlobalSection
+EndGlobal
